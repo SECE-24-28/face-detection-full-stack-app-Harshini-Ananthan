@@ -1,0 +1,30 @@
+{
+  "name": "face-detection-full-stack-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma": "prisma"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@prisma/client": "^5.13.0",
+    "graphql": "^16.8.0",
+    "next": "^15.3.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.35",
+    "prisma": "^5.13.0",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.6.0"
+  }
+}
